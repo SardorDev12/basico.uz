@@ -1,0 +1,14 @@
+@mixin flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+$primary-color: #d10000;
+$text-color: #262626;
