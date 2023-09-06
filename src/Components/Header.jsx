@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa";
 import { memo, useState } from "react";
 
 function Header() {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
     console.log("Click");
@@ -19,32 +19,34 @@ function Header() {
 
   return (
     <header className="header" id="home">
-      <div className="mobile">
-        <FaBars className="burger-menu" onClick={handleToggle} />
-        <div className="logo">
-          <a href="#">
-            <img src={logo} alt="logo" />
-          </a>
+      <div className="container">
+        <div className="mobile">
+          <FaBars className="burger-menu" onClick={handleToggle} />
+          <div className="logo">
+            <a href="#">
+              <img src={logo} alt="logo" />
+            </a>
+          </div>
         </div>
+        <ul className={`nav-items ${toggle ? "show" : ""} `}>
+          <li className="nav-item">
+            <a href="#">Главная</a>
+          </li>
+          <li className="nav-item">
+            <a href="#header">O нас</a>
+          </li>
+          <li className="nav-item">
+            <a href="#header">Услуги</a>
+          </li>
+          <li className="nav-item">
+            <a href="#header">Портфолио</a>
+          </li>
+          <li className="nav-item">
+            <a href="#header">Контакты</a>
+          </li>
+        </ul>
+        <CallBtn />
       </div>
-      <ul className={`nav-items ${toggle ? "show" : ""} `}>
-        <li className="nav-item">
-          <a href="#">Главная</a>
-        </li>
-        <li className="nav-item">
-          <a href="#header">O нас</a>
-        </li>
-        <li className="nav-item">
-          <a href="#header">Услуги</a>
-        </li>
-        <li className="nav-item">
-          <a href="#header">Портфолио</a>
-        </li>
-        <li className="nav-item">
-          <a href="#header">Контакты</a>
-        </li>
-      </ul>
-      <CallBtn />
     </header>
   );
 }

@@ -1,0 +1,45 @@
+@import "../Sass/variables.scss";
+
+.main {
+  @include flex-row;
+  max-height: 100vh;
+}
+
+.home-image {
+  margin-top: 5rem;
+  width: 900px;
+}
+.home-text {
+  @include flex-column;
+  align-items: flex-start;
+  gap: 2rem;
+
+  .home-title {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-text {
+    .home-title {
+      text-transform: capitalize;
+      font-size: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .home-image {
+    width: 400px;
+  }
+
+  .home-text {
+    align-items: center;
+    padding: 0 1rem;
+  }
+}
