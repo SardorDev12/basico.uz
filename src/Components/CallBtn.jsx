@@ -1,10 +1,13 @@
-import "../Sass/call.scss";
+import { memo } from "react";
+import "../Sass/header.scss";
 
 function CallBtn() {
   return (
-    <button type="button" className="call-btn">
-      Позвоните нам
-    </button>
+    <a href="#contact">
+      <button type="button" className="call-btn">
+        Позвоните нам
+      </button>
+    </a>
   );
 }
-export default CallBtn;
+export default memo(CallBtn);

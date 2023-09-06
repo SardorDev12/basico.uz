@@ -1,3 +1,89 @@
+@import "../Sass/variables.scss";
+
+.header,
+.nav-items {
+  @include flex-row;
+  justify-content: space-between;
+}
+
+.nav-items {
+  gap: 2rem;
+  margin-right: 2rem;
+}
+
+.header {
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px solid $text-color;
+}
+
 .logo {
-  width: 250px;
+  width: 150px;
+}
+
+.nav-item {
+  font-weight: 650;
+  font-size: 1.2rem;
+}
+
+.call-btn {
+  padding: 0.8rem 2rem;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: $primary-color;
+  color: white;
+  letter-spacing: 0.4px;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .logo {
+    width: 140px;
+  }
+  .nav-items {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .call-btn {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    font-size: 3rem;
+  }
+
+  .mobile {
+    width: 100%;
+    @include flex-row;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-items {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    &.show {
+      margin-top: 1rem;
+      height: 230px;
+    }
+    .nav-item {
+      font-size: 2rem;
+    }
+  }
 }
