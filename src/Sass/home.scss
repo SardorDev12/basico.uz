@@ -3,6 +3,7 @@
 .main {
   @include flex-row;
   max-height: 100vh;
+  overflow: hidden;
 }
 
 .home-image {
@@ -32,6 +33,7 @@
   .main {
     flex-direction: column;
     height: auto;
+    overflow: visible;
   }
 
   .home-image {
@@ -41,5 +43,9 @@
   .home-text {
     align-items: center;
     padding: 0 1rem;
+  }
+
+  .home-btn {
+    margin-bottom: 2rem;
   }
 }

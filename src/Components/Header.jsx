@@ -9,7 +9,6 @@ function Header() {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
-    console.log("Click");
     if (toggle) {
       setToggle(!toggle);
     } else {
@@ -45,7 +44,7 @@ function Header() {
             <a href="#header">Контакты</a>
           </li>
         </ul>
-        <CallBtn />
+        <CallBtn typeBtn={"header-btn"} />
       </div>
     </header>
   );
