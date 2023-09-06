@@ -2,18 +2,17 @@
 
 .main {
   @include flex-row;
-  max-height: 100vh;
-  overflow: hidden;
 }
 
 .home-image {
   margin-top: 5rem;
   width: 900px;
+  min-height: 200px;
 }
 .home-text {
   @include flex-column;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 2.5rem;
 
   .home-title {
     font-size: 5rem;
@@ -56,5 +55,16 @@
   .home-btn {
     margin: 2rem 0;
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .home-image {
+    width: 300px;
+  }
+  .home-text {
+    .home-title {
+      font-size: 2.5rem;
+    }
   }
 }

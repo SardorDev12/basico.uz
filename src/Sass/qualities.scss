@@ -1,0 +1,34 @@
+@import "../Sass/variables.scss";
+
+.qualities-section {
+  background-color: rgb(255, 191, 168);
+}
+
+.qualities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  margin-bottom: 3rem;
+
+  .quality {
+    @include flex-column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+  }
+
+  .quality:not(:nth-child(2)) {
+    transform: translateY(2rem);
+  }
+}
+@media screen and (max-width: 425px) {
+  .qualities {
+    @include flex-column;
+    gap: 2rem;
+    .quality:not(:nth-child(2)) {
+      transform: translateX(0);
+    }
+  }
+}

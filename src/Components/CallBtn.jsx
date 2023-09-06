@@ -2,7 +2,6 @@ import { memo } from "react";
 import "../Sass/header.scss";
 
 function CallBtn({ typeBtn }) {
-  console.log(typeBtn);
   return (
     <a href="#contact">
       <button type="button" className={`call-btn ${typeBtn}`}>
