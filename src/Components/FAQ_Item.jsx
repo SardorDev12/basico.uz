@@ -9,10 +9,10 @@ function FAQ_Item({ question, answer }) {
   };
 
   return (
-    <>
+    <tbody>
       <tr>
-        <FaChevronDown />
         <th onClick={toggleAnswer} className="faq-question">
+          <FaChevronDown />
           {question}
         </th>
       </tr>
@@ -21,7 +21,7 @@ function FAQ_Item({ question, answer }) {
           {isAnswerVisible && answer}
         </td>
       </tr>
-    </>
+    </tbody>
   );
 }
 

@@ -8,7 +8,7 @@
   @include flex-row;
 }
 
-.faq-container > table {
+.faq-container > table > tbody {
   @include flex-column;
   align-items: flex-start;
   width: 100%;
@@ -21,6 +21,9 @@ th {
   text-align: left;
   border-bottom: 1px solid #ddd;
   width: 100%;
+  @include flex-row;
+  justify-content: flex-start;
+  gap: 0.5rem;
 }
 
 td {
@@ -28,9 +31,6 @@ td {
 }
 
 table > tr {
-  @include flex-row;
-  justify-content: flex-start;
-  gap: 0.5rem;
   width: 100%;
   padding: 0.5rem 1rem;
 
