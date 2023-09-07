@@ -6,54 +6,40 @@
 
 .faq-section {
   @include flex-row;
+  justify-content: space-evenly;
 }
 
-.faq-container > table > tbody {
-  @include flex-column;
-  align-items: flex-start;
-  width: 100%;
-  border-collapse: collapse;
+.faq-container {
   border: 1px solid #ddd;
 }
 
-th {
-  padding: 12px 15px;
-  text-align: left;
+.faq-item {
   border-bottom: 1px solid #ddd;
-  width: 100%;
+  padding: 1rem;
+}
+.faq-question {
   @include flex-row;
   justify-content: flex-start;
   gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
-td {
-  max-width: 600px;
+.answer {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  max-width: 500px;
 }
 
-table > tr {
-  width: 100%;
-  padding: 0.5rem 1rem;
-
-  th {
-    font-size: 1.3rem;
-    cursor: pointer;
-  }
-}
-
-.answer.hide {
-  display: none;
-}
-
-@media screen and (max-width: 768px) {
-  .faq-image {
-    margin-right: 2rem;
-    width: 300px;
-  }
+.answer.visible {
+  height: 20px;
 }
 
 @media screen and (max-width: 425px) {
   .faq-image {
-    width: 250px;
+    width: 200px;
+    margin: 0;
   }
   .faq-section {
     flex-direction: column-reverse;

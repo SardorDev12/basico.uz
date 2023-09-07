@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaChevronDown } from "react-icons/fa";
+import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 
 function FAQ_Item({ question, answer }) {
   const [isAnswerVisible, setIsAnswerVisible] = useState(false);
@@ -9,19 +9,15 @@ function FAQ_Item({ question, answer }) {
   };
 
   return (
-    <tbody>
-      <tr>
-        <th onClick={toggleAnswer} className="faq-question">
-          <FaChevronDown />
-          {question}
-        </th>
-      </tr>
-      <tr>
-        <td className={`answer ${isAnswerVisible ? "visible" : "hide"}`}>
-          {isAnswerVisible && answer}
-        </td>
-      </tr>
-    </tbody>
+    <div className="faq-item">
+      <div onClick={toggleAnswer} className="faq-question">
+        {isAnswerVisible ? <FaChevronDown /> : <FaChevronRight />}
+        {question}
+      </div>
+      <div className={`answer ${isAnswerVisible ? "visible" : ""}`}>
+        {answer}
+      </div>
+    </div>
   );
 }
 
