@@ -40,6 +40,12 @@
   }
 }
 
+.tel {
+  @include flex-column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
 .footer-info {
   border-bottom: 1px solid #ddd;
   padding: 1rem;

@@ -7,6 +7,7 @@ import Statistics from "./Components/Statistics";
 import Portfolio from "./Components/Portfolio";
 import Partners from "./Components/Partners";
 import Footer from "./Components/Footer";
+import Cta from "./Components/Cta";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Portfolio />
       <Partners />
       <Footer />
+      <Cta />
     </>
   );
 }
