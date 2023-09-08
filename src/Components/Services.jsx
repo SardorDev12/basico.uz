@@ -7,37 +7,35 @@ function Services() {
   return (
     <section className="services-section" id="services">
       <h2 className="section-title">Наши Услуги</h2>
-      <div className="services">
+      <div className="services-container">
         <div className="service">
-          <div className="service-text">
-            Создаем стильную и качественную одежду: футболки, поло, лонгсливы,
-            свитшоты и худи. Материалы высокого качества и передовые технологии
-            для комфорта и модного стиля.
+          <div className="service-img">
+            <img src={service1} alt="service-image" />
           </div>
-          <div className="service-image">
-            <img src={service1} alt="" />
-          </div>
+          <h3 className="service-title">Изготовление Футболок</h3>
+          <p className="service-text">
+            Стильная одежда: футболки, поло, лонгсливы, свитшоты, худи - высокое
+            качество, передовые технологии.
+          </p>
         </div>
         <div className="service">
-          <div className="service-image">
-            <img src={service2} alt="" />
+          <div className="service-img">
+            <img src={service2} alt="service-image" />
           </div>
-          <div className="service-text">
-            У нас также предоставляется услуга нанесения логотипов и изображений
-            на нашу продукцию. Ваши уникальные дизайны станут частью вашей
-            одежды, добавляя индивидуальность и стиль.
-          </div>
+          <h3 className="service-title">Индивидуальная Печать</h3>
+          <p className="service-text">
+            Наносим логотипы и дизайны на продукцию, создавая уникальный стиль.
+          </p>
         </div>
         <div className="service">
-          <div className="service-text">
-            Кроме того, мы предоставляем возможность полностью
-            персонализированных дизайнов. Вы можете заказать у нас продукцию с
-            уникальными и индивидуальными дизайнами, которые отражают вашу
-            уникальность и стиль.
+          <div className="service-img">
+            <img src={service3} alt="service-image" />
           </div>
-          <div className="service-image">
-            <img src={service3} alt="" />
-          </div>
+          <h3 className="service-title">Персонализация Под Заказ</h3>
+          <p className="service-text">
+            Создание полностью персонализированных дизайнов, отражающих вашу
+            индивидуальность и стиль.
+          </p>
         </div>
       </div>
     </section>

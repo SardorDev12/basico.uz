@@ -4,7 +4,7 @@ import FAQ_Item from "./FAQ_Item";
 
 function Faq() {
   return (
-    <section className="faq-section">
+    <section className="faq-section" id="faq">
       <div className="faq-container">
         <FAQ_Item
           question={"КАКОЙ У ВАС МИНИМАЛЬНЫЙ ОБЪЁМ ЗАКАЗА?"}

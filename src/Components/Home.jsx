@@ -4,7 +4,7 @@ import "../Sass/home.scss";
 
 function Home() {
   return (
-    <main className="main">
+    <main className="main" id="home">
       <div className="home-image">
         <img src={homeImage} alt="home-image" />
       </div>

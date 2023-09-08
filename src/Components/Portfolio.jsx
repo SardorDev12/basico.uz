@@ -10,7 +10,7 @@ import image9 from "../assets/Images/Portfolio/image (9).jpg";
 
 function Portfolio() {
   return (
-    <section className="portfolio-section">
+    <section className="portfolio-section" id="portfolio">
       <h2 className="section-title">Наши Проекты</h2>
       <div className="section-container">
         <div className="portfolio-item">

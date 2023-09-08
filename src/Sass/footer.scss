@@ -2,7 +2,13 @@
 
 .footer {
   background-color: #000000;
-  padding: 2rem;
+  padding-top: 4rem;
+  .form-title {
+    text-align: center;
+    color: #ddd;
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
 }
 
 .map_form {
@@ -18,14 +24,9 @@
     gap: 2rem;
     align-items: flex-start;
 
-    // iframe {
-    //   width: 100%;
-    //   height: 450;
-    // }
-
     input,
     textarea {
-      padding: 0.3rem 0.5rem;
+      padding: 0.5rem 5rem 0.5rem 0.3rem;
       border: none;
       font-size: 1rem;
       border-radius: 3px;

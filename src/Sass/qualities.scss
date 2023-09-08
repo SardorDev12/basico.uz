@@ -5,6 +5,8 @@
 }
 
 .qualities {
+  width: 90%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
@@ -17,6 +19,7 @@
     padding: 1.5rem;
     border: 2px solid $primary-color;
     border-radius: 3px;
+    background-color: rgb(216, 216, 216);
 
     .quality-icon {
       font-size: 2rem;
