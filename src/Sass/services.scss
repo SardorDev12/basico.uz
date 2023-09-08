@@ -1,9 +1,5 @@
 @import "../Sass/variables.scss";
 
-.services-section {
-  background-color: antiquewhite;
-}
-
 .services-container {
   @include flex-row;
   width: 80%;

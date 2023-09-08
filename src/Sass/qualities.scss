@@ -1,9 +1,5 @@
 @import "../Sass/variables.scss";
 
-.qualities-section {
-  background-color: rgb(255, 191, 168);
-}
-
 .qualities {
   width: 90%;
   margin: 0 auto;
@@ -17,7 +13,7 @@
     align-items: flex-start;
     gap: 1rem;
     padding: 1.5rem;
-    border: 2px solid $primary-color;
+    border: 1px solid $primary-color;
     border-radius: 3px;
     background-color: rgb(216, 216, 216);
 
