@@ -1,0 +1,53 @@
+@import "../Sass//variables.scss";
+
+.statistics-section {
+  padding: 3rem;
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.statistics {
+  @include flex-row;
+  justify-content: flex-start;
+
+  h4 {
+    font-size: 8rem;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 2rem;
+    transform: translate(-2rem, -1rem);
+    font-weight: 600;
+    color: $text-color;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .statistics-section {
+    grid-template-columns: none;
+    @include flex-column;
+  }
+
+  .statistics {
+    flex-direction: column;
+    p {
+      transform: translateY(-3rem);
+      max-width: 50%;
+      text-align: center;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .statistics {
+    p {
+      max-width: 80%;
+    }
+  }
+}

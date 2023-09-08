@@ -16,7 +16,17 @@
     gap: 1rem;
     padding: 1.5rem;
     border: 2px solid $primary-color;
-    border-radius: 5px;
+    border-radius: 3px;
+
+    .quality-icon {
+      font-size: 2rem;
+      color: $primary-color;
+    }
+
+    h3,
+    p {
+      color: $text-color;
+    }
   }
 
   .quality:not(:nth-child(2)) {

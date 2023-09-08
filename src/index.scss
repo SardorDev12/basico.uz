@@ -41,3 +41,8 @@ section {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
+@media screen and (max-width: 425px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}
