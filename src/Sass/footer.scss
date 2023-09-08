@@ -19,6 +19,12 @@
   background-color: #680606;
   @include flex-row;
 
+  iframe {
+    width: 500px;
+    height: 300px;
+    margin-top: 2rem;
+  }
+
   .form {
     @include flex-column;
     gap: 2rem;
@@ -26,11 +32,27 @@
 
     input,
     textarea {
-      padding: 0.5rem 5rem 0.5rem 0.3rem;
+      padding: 0.5rem 10rem 0.5rem 0.3rem;
       border: none;
       font-size: 1rem;
       border-radius: 3px;
       outline: none;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 0.8rem 0;
+      background-color: lightgreen;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      font-size: 1.2rem;
+      color: $text-color;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(88, 185, 88);
+      }
     }
 
     input[type="number"]::-webkit-inner-spin-button,
@@ -83,10 +105,17 @@
     }
   }
 }
+
 @media screen and (max-width: 425px) {
   .map_form {
     width: 95%;
     flex-direction: column;
+    .map {
+      iframe {
+        width: 300px;
+        margin-bottom: 2rem;
+      }
+    }
     .form {
       input,
       textarea {
@@ -102,6 +131,7 @@
 
     .info-item {
       width: calc(50% - 10px);
+      font-size: 1.3rem;
     }
   }
 }

@@ -12,6 +12,9 @@
   a {
     padding: 1rem 0.5rem;
     color: rgb(17, 17, 37);
+    position: absolute;
+    left: 0.5rem;
+    bottom: -0.8rem;
   }
   &:hover a {
     color: green;

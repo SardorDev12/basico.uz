@@ -34,15 +34,27 @@
 }
 
 .answer.visible {
-  height: 20px;
+  height: 75px;
 }
 
 @media screen and (max-width: 425px) {
+  section.faq-section {
+    padding-top: 2rem;
+  }
   .faq-image {
-    width: 200px;
+    width: 300px;
     margin: 0;
   }
   .faq-section {
     flex-direction: column-reverse;
+  }
+
+  .faq-question {
+    font-size: 1.7rem;
+  }
+
+  .answer {
+    font-size: 1.6rem;
+    max-height: auto;
   }
 }

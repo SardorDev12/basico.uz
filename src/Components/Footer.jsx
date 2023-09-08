@@ -5,7 +5,10 @@ function Footer() {
       <div className="form-title">Свяжитесь с нами</div>
       <div className="map_form">
         <div className="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6004.503657329822…ExJzQwLjEiTiA2OcKwMTInNTAuNyJF!5e0!3m2!1sru!2s!4v1693471780175!5m2!1sru!2s"></iframe>
+          <iframe
+            id="gmap_canvas"
+            src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6004.503657329822!2d69.214077!3d41.194483!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDExJzQwLjEiTiA2OcKwMTInNTAuNyJF!5e0!3m2!1sru!2s!4v1694168959842!5m2!1sru!2s"
+          ></iframe>
         </div>
         <form action="" className="form" id="contact">
           <input
@@ -28,6 +31,9 @@ function Footer() {
             name="message"
             id="message"
           ></textarea>
+          <button type="submit" className="submit-btn">
+            Submit
+          </button>
         </form>
       </div>
       <div className="footer-info">

@@ -12,30 +12,37 @@ function Services() {
           <div className="service-img">
             <img src={service1} alt="service-image" />
           </div>
-          <h3 className="service-title">Изготовление Футболок</h3>
-          <p className="service-text">
-            Стильная одежда: футболки, поло, лонгсливы, свитшоты, худи - высокое
-            качество, передовые технологии.
-          </p>
+          <div className="service-desc">
+            <h3 className="service-title">Изготовление Футболок</h3>
+            <p className="service-text">
+              Стильная одежда: футболки, поло, лонгсливы, свитшоты, худи -
+              высокое качество, передовые технологии.
+            </p>
+          </div>
         </div>
         <div className="service">
           <div className="service-img">
             <img src={service2} alt="service-image" />
           </div>
-          <h3 className="service-title">Индивидуальная Печать</h3>
-          <p className="service-text">
-            Наносим логотипы и дизайны на продукцию, создавая уникальный стиль.
-          </p>
+          <div className="service-desc">
+            <h3 className="service-title">Индивидуальная Печать</h3>
+            <p className="service-text">
+              Наносим логотипы и дизайны на продукцию, создавая уникальный
+              стиль.
+            </p>
+          </div>
         </div>
         <div className="service">
           <div className="service-img">
             <img src={service3} alt="service-image" />
           </div>
-          <h3 className="service-title">Персонализация Под Заказ</h3>
-          <p className="service-text">
-            Создание полностью персонализированных дизайнов, отражающих вашу
-            индивидуальность и стиль.
-          </p>
+          <div className="ervice-desc">
+            <h3 className="service-title">Персонализация Под Заказ</h3>
+            <p className="service-text">
+              Создание полностью персонализированных дизайнов, отражающих вашу
+              индивидуальность и стиль.
+            </p>
+          </div>
         </div>
       </div>
     </section>

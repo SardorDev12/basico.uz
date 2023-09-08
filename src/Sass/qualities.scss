@@ -19,7 +19,7 @@
 
     .quality-icon {
       font-size: 2rem;
-      color: $primary-color;
+      color: orangered;
     }
 
     h3,
@@ -38,6 +38,18 @@
     gap: 2rem;
     .quality:not(:nth-child(2)) {
       transform: translateX(0);
+    }
+
+    .quality .quality-icon {
+      font-size: 5rem;
+    }
+
+    .quality-title {
+      font-size: 2rem;
+    }
+
+    .quality-text {
+      font-size: 1.7rem;
     }
   }
 }

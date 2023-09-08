@@ -2,18 +2,24 @@
 
 .services-container {
   @include flex-row;
-  width: 80%;
+  width: 90%;
   gap: 2rem;
+  border-radius: 3px;
   margin: 0 auto;
+  padding: 2rem 0;
 
   .service {
-    background-color: rgba(235, 67, 38, 0.438);
-    padding: 0.5rem 1rem;
+    background-color: lightblue;
+    padding: 2rem 1rem;
     @include flex-column;
-    min-height: 400px;
+    justify-content: flex-start;
+    min-height: 470px;
     border-radius: 3px;
+    overflow: hidden;
+
     img {
       transition: all 0.3s ease-in-out;
+      margin-bottom: 2rem;
     }
     &:hover img {
       transform: scale(1.1);
@@ -26,6 +32,7 @@
 
     .service-text {
       color: $text-color;
+      margin-top: 1rem;
     }
   }
 }
@@ -41,11 +48,12 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .services-container {
     flex-direction: column;
   }
   .service {
+    width: 100%;
     min-height: 350px;
     .service-title {
       font-size: 2.2rem;
@@ -56,7 +64,7 @@
     }
 
     .service-img {
-      width: 250px;
+      width: 300px;
     }
   }
 }

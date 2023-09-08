@@ -21,8 +21,7 @@ function Qualities() {
         </div>
         <div className="quality">
           <div className="quality-icon">
-            {" "}
-            <AiOutlineUser />{" "}
+            <AiOutlineUser />
           </div>
           <h3 className="quality-title">Индивидуальный Подход</h3>
           <p className="quality-text">
