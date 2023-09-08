@@ -1,22 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 
-function FAQ_Item({ question, answer }) {
-  const [isAnswerVisible, setIsAnswerVisible] = useState(false);
-
-  const toggleAnswer = () => {
-    setIsAnswerVisible(!isAnswerVisible);
-  };
-
+function FAQ_Item({ question, answer, isOpen, toggleAnswer }) {
   return (
     <div className="faq-item">
       <div onClick={toggleAnswer} className="faq-question">
-        {isAnswerVisible ? <FaChevronDown /> : <FaChevronRight />}
+        {isOpen ? <FaChevronDown /> : <FaChevronRight />}
         {question}
       </div>
-      <div className={`answer ${isAnswerVisible ? "visible" : ""}`}>
-        {answer}
-      </div>
+      <div className={`answer ${isOpen ? "visible" : ""}`}>{answer}</div>
     </div>
   );
 }

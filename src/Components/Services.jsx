@@ -15,8 +15,10 @@ function Services() {
           <div className="service-desc">
             <h3 className="service-title">Изготовление Футболок</h3>
             <p className="service-text">
-              Стильная одежда: футболки, поло, лонгсливы, свитшоты, худи -
-              высокое качество, передовые технологии.
+              {/* Стильная одежда: футболки, поло, лонгсливы, свитшоты, худи -
+              высокое качество, передовые технологии. */}
+              Производим готовый трикотаж: футболки, поло, лонгсливы, свитшоты,
+              худи
             </p>
           </div>
         </div>
@@ -27,8 +29,7 @@ function Services() {
           <div className="service-desc">
             <h3 className="service-title">Индивидуальная Печать</h3>
             <p className="service-text">
-              Наносим логотипы и дизайны на продукцию, создавая уникальный
-              стиль.
+              Печать логотипа или вышивка на готовую одежду.
             </p>
           </div>
         </div>
@@ -38,10 +39,7 @@ function Services() {
           </div>
           <div className="ervice-desc">
             <h3 className="service-title">Персонализация Под Заказ</h3>
-            <p className="service-text">
-              Создание полностью персонализированных дизайнов, отражающих вашу
-              индивидуальность и стиль.
-            </p>
+            <p className="service-text">Индивидуальные заказы.</p>
           </div>
         </div>
       </div>

@@ -3,9 +3,9 @@ import "../Sass/header.scss";
 
 function CallBtn({ typeBtn }) {
   return (
-    <a href="#contact">
+    <a href="#footer">
       <button type="button" className={`call-btn ${typeBtn}`}>
-        Позвоните нам
+        Хочу заказать!
       </button>
     </a>
   );

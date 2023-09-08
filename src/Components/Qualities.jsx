@@ -7,7 +7,7 @@ import { FaSmile } from "react-icons/fa";
 function Qualities() {
   return (
     <section className="qualities-section" id="qualities">
-      <h2 className="section-title">Почему Выбрать Именно Нас?</h2>
+      <h2 className="section-title">Почему именно мы?</h2>
       <div className="qualities">
         <div className="quality">
           <div className="quality-icon">
