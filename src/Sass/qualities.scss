@@ -29,9 +29,13 @@
 }
 @media screen and (max-width: 425px) {
   .qualities {
-    @include flex-column;
     gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 
+    .quality {
+      width: calc(50% - 10px);
+    }
     .quality .quality-icon {
       font-size: 5rem;
       padding-bottom: 0;
