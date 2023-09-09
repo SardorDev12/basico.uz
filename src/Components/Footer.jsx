@@ -33,7 +33,7 @@ function Footer() {
             id="message"
           ></textarea>
           <button type="submit" className="submit-btn">
-            Отправлять
+            ОТПРАВИТЬ ЗАЯВКУ
           </button>
         </form>
       </div>
