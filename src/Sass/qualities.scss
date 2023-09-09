@@ -10,26 +10,24 @@
 
   .quality {
     @include flex-column;
-    align-items: flex-start;
     gap: 1rem;
     padding: 1.5rem;
     border: 1px solid $primary-color;
     border-radius: 3px;
-    background-color: rgb(216, 216, 216);
-
+    border: 1px solid $text-color;
+    text-align: center;
     .quality-icon {
-      font-size: 2rem;
-      color: orangered;
+      font-size: 3rem;
+      padding: 0.8rem 1rem 0.3rem;
+      background-color: #ddd;
+      color: $primary-color;
+      border-radius: 50%;
     }
 
     h3,
     p {
       color: $text-color;
     }
-  }
-
-  .quality:not(:nth-child(2)) {
-    transform: translateY(2rem);
   }
 }
 @media screen and (max-width: 425px) {
@@ -42,6 +40,7 @@
 
     .quality .quality-icon {
       font-size: 5rem;
+      padding-bottom: 0;
     }
 
     .quality-title {

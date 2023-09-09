@@ -9,11 +9,11 @@
   padding: 2rem 0;
 
   .service {
-    background-color: lightblue;
     padding: 2rem 1rem;
     @include flex-column;
     justify-content: flex-start;
     min-height: 470px;
+    border: 1px solid $text-color;
     border-radius: 3px;
     overflow: hidden;
 

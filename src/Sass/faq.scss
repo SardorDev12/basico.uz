@@ -4,7 +4,7 @@
   margin-right: 8rem;
 }
 
-.faq-section {
+.section-cont {
   @include flex-row;
   justify-content: space-evenly;
 }
@@ -41,8 +41,12 @@
   section.faq-section {
     padding-top: 2rem;
   }
+
+  .section-cont {
+    flex-direction: column-reverse;
+  }
   .faq-image {
-    width: 300px;
+    width: 200px;
     margin: 0;
   }
   .faq-section {
@@ -50,7 +54,7 @@
   }
 
   .faq-question {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   .answer {

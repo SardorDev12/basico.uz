@@ -42,16 +42,22 @@
     .submit-btn {
       width: 100%;
       padding: 0.8rem 0;
-      background-color: lightgreen;
+      background-color: $primary-color;
       border: none;
       border-radius: 3px;
       outline: none;
       font-size: 1.2rem;
-      color: $text-color;
+      color: white;
+      font-weight: 600;
       cursor: pointer;
+      border: 2px solid transparent;
+      transition: all 0.3s ease-in-out;
 
       &:hover {
-        background-color: rgb(88, 185, 88);
+        background-color: transparent;
+        color: rgb(214, 213, 213);
+        border: 2px solid white;
+        transform: scale(1.01);
       }
     }
 
@@ -89,10 +95,30 @@
     margin: 1rem;
   }
 }
+
+.address {
+  line-height: 2rem;
+}
 .developer {
   color: #ddd;
   text-align: center;
   margin: 1rem 0 0;
+}
+
+.social-network {
+  padding: 0 1rem;
+  @include flex-row;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.social-icon {
+  color: #ddd;
+  font-size: 1.5rem;
+
+  &:hover {
+    color: $primary-color;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -50,6 +50,8 @@ section {
   color: $primary-color;
   font-size: 3rem;
   margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 425px) {
   .section-title {

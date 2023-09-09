@@ -1,7 +1,7 @@
 @import "../Sass//variables.scss";
 
 .statistics-section {
-  padding: 3rem;
+  padding: 1rem 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -12,14 +12,16 @@
 
   h4 {
     font-size: 8rem;
-    color: $primary-color;
+    color: #ddd;
+    -webkit-text-stroke: 1px #000; /* Webkit browsers like Chrome and Safari */
+    text-stroke: 1px #000;
   }
 
   p {
     font-size: 2rem;
     transform: translate(-2rem, -1rem);
     font-weight: 600;
-    color: $text-color;
+    color: $primary-color;
   }
 }
 
@@ -40,6 +42,7 @@
       transform: translateY(-3rem);
       max-width: 50%;
       text-align: center;
+      font-size: 3rem;
     }
   }
 }

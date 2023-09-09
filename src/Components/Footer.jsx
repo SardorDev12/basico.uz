@@ -1,4 +1,5 @@
 import "../Sass/footer.scss";
+import { FaInstagram, FaTelegram, FaFacebook } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="footer" id="footer">
@@ -32,20 +33,39 @@ function Footer() {
             id="message"
           ></textarea>
           <button type="submit" className="submit-btn">
-            Submit
+            Отправлять
           </button>
         </form>
       </div>
       <div className="footer-info">
         <div className="info-item">
           <h2>Адрес</h2>
-          <p>Янгихаётский район, Квартал Дустлик 1, 4 Дом Город Ташкент</p>
+          <p className="address">
+            Янгихаётский район, Квартал Дустлик 1, 4 Дом Город Ташкент
+          </p>
         </div>
         <div className="info-item">
           <h2>Электронная Почта</h2>
           <p>
             <a href="mailto:Info@Basico.Uz">Info@Basico.Uz</a>
           </p>
+          <ul className="social-network">
+            <li>
+              <a href="" className="social-icon">
+                <FaTelegram />
+              </a>
+            </li>
+            <li>
+              <a href="" className="social-icon">
+                <FaInstagram />
+              </a>
+            </li>
+            <li>
+              <a href="" className="social-icon">
+                <FaFacebook />
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="info-item">
           <h2>Телефон</h2>

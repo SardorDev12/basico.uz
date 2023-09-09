@@ -29,19 +29,22 @@ function Faq() {
 
   return (
     <section className="faq-section" id="faq">
-      <div className="faq-container">
-        {faqData.map((item, index) => (
-          <FAQ_Item
-            key={index}
-            question={item.question}
-            answer={item.answer}
-            isOpen={activeIndex === index}
-            toggleAnswer={() => toggleAnswer(index)}
-          />
-        ))}
-      </div>
-      <div className="faq-image">
-        <img src={faqImage} alt="faq-image" />
+      <h2 className="section-title">Часто задаваемые вопросы</h2>
+      <div className="section-cont">
+        <div className="faq-container">
+          {faqData.map((item, index) => (
+            <FAQ_Item
+              key={index}
+              question={item.question}
+              answer={item.answer}
+              isOpen={activeIndex === index}
+              toggleAnswer={() => toggleAnswer(index)}
+            />
+          ))}
+        </div>
+        <div className="faq-image">
+          <img src={faqImage} alt="faq-image" />
+        </div>
       </div>
     </section>
   );
