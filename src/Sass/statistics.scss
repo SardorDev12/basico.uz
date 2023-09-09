@@ -13,8 +13,8 @@
   h4 {
     font-size: 8rem;
     color: #ddd;
-    -webkit-text-stroke: 1px #000; /* Webkit browsers like Chrome and Safari */
-    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 1px #000;
   }
 
   p {
@@ -38,15 +38,18 @@
 
   .statistics {
     flex-direction: column;
+
+    h4 {
+      font-size: 10rem;
+    }
     p {
-      transform: translateY(-3rem);
-      max-width: 50%;
+      transform: translateY(-4rem);
       text-align: center;
       font-size: 3rem;
     }
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .statistics {
     p {
       max-width: 80%;

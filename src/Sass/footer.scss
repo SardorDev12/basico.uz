@@ -103,6 +103,7 @@
   color: #ddd;
   text-align: center;
   margin: 1rem 0 0;
+  font-size: 1.5rem;
 }
 
 .social-network {
@@ -142,6 +143,7 @@
         margin-bottom: 2rem;
       }
     }
+
     .form {
       input,
       textarea {
@@ -152,12 +154,18 @@
       }
     }
   }
+  .social-icon {
+    font-size: 3rem;
+  }
   .footer-info {
     flex-wrap: wrap;
 
     .info-item {
       width: calc(50% - 10px);
       font-size: 1.3rem;
+      p {
+        font-size: 1.5rem;
+      }
     }
   }
 }

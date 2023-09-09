@@ -10,7 +10,7 @@ function Statistics() {
 
       <div className="statistics">
         <h4>10</h4>
-        <p className="statistics-text">0 Команда Из Профессионалов</p>
+        <p className="statistics-text">Профессионалов в команде</p>
       </div>
       <div className="statistics">
         <h4>200</h4>
