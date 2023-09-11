@@ -133,6 +133,27 @@
   }
 }
 
+@media screen and (max-width: 542px) {
+  .map_form {
+    width: 95%;
+    flex-direction: column;
+    .map {
+      iframe {
+        width: 400px;
+        margin-bottom: 2rem;
+      }
+    }
+    .form {
+      input,
+      textarea {
+        font-size: 1.3rem;
+        padding: 1rem;
+        width: 70vw;
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
 @media screen and (max-width: 425px) {
   .map_form {
     width: 95%;

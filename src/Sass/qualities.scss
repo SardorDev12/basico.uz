@@ -3,7 +3,6 @@
 .qualities {
   width: 90%;
   margin: 0 auto;
-  display: grid;
   @include flex-row;
 
   .quality {
@@ -27,6 +26,12 @@
     }
   }
 }
+@media screen and (max-width: 542px) {
+  .quality {
+    width: calc(23% - 10px);
+  }
+}
+
 @media screen and (max-width: 425px) {
   .qualities {
     gap: 2rem;
