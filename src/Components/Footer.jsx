@@ -51,20 +51,28 @@ function Footer() {
           </p>
           <ul className="social-network">
             <li>
-              <a href="" className="social-icon">
+              <a
+                target="_blank"
+                href="https://t.me/basico_uzb"
+                className="social-icon"
+              >
                 <FaTelegram />
               </a>
             </li>
             <li>
-              <a href="" className="social-icon">
+              <a
+                target="_blank"
+                href="https://instagram.com/basico.uz?igshid=MzRlODBiNWFlZA=="
+                className="social-icon"
+              >
                 <FaInstagram />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="" className="social-icon">
                 <FaFacebook />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="info-item">
