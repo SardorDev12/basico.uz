@@ -2,15 +2,6 @@ import "../Sass/services.scss";
 import service1 from "../assets/Images/Serv 2.png";
 import service2 from "../assets/Images/Serv 1.png";
 import service3 from "../assets/Images/Servis 2.jpg";
-// import service1 from "../assets/Images/Serv 1.jpg";
-// import service2 from "../assets/Images/Serv 2.jpg";
-// import service3 from "../assets/Images/Serv 3.jpg";
-// import service2 from "../assets/Images/1.png";
-// import service1 from "../assets/Images/2.png";
-// import service3 from "../assets/Images/4.png";
-// import service1 from "../assets/Images/Service 1.png";
-// import service2 from "../assets/Images/Service 2.png";
-// import service3 from "../assets/Images/Service 3.png";
 
 function Services() {
   return (
