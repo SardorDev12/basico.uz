@@ -15,7 +15,6 @@ import image13 from "../assets/Images/Portfolio/portfoilo (13).jpg";
 import image14 from "../assets/Images/Portfolio/portfoilo (14).jpg";
 import image15 from "../assets/Images/Portfolio/portfoilo (15).jpg";
 import image16 from "../assets/Images/Portfolio/portfoilo (16).jpg";
-// import image17 from "../assets/Images/Portfolio/portfoilo (17).jpg";
 
 function Portfolio() {
   return (
