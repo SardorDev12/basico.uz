@@ -10,6 +10,10 @@
   .service {
     width: 300px;
     min-height: 300px;
+
+    .service-title {
+      min-height: 5rem;
+    }
     .service-image {
       min-height: 300px;
       max-height: 300px;
@@ -29,6 +33,9 @@
     grid-template-columns: none;
     .service-title {
       font-size: 2rem;
+    }
+    .service-desc p {
+      font-size: 1.5rem;
     }
   }
 }

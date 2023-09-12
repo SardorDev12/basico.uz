@@ -21,65 +21,40 @@ function Services() {
           <div className="service-image">
             <img src={service1} alt="service-image" />
           </div>
-          <h2 className="service-title">Продажа готовых изделий</h2>
+          <div className="service-desc">
+            <h2 className="service-title">Продажа готовых изделий</h2>
+            <p>
+              Производим готовый трикотаж: футболки, поло, лонгсливы, свитшоты,
+              худи.
+            </p>
+          </div>
         </div>
         <div className="service">
           <div className="service-image">
             <img src={service2} alt="service-image" />
           </div>
-          <h2 className="service-title">
-            Нанесение логотипа на наши готовые изделия
-          </h2>
+          <div className="service-desc">
+            <h2 className="service-title">
+              Нанесение логотипа на наши готовые изделия
+            </h2>
+            <p>Печать логотипа или вышивка на готовую одежду.</p>
+          </div>
         </div>
         <div className="service">
           <div className="service">
             <div className="service-image">
               <img src={service3} alt="service-image" />
             </div>
-            <h2 className="service-title">
-              {" "}
-              Производство изделий с нуля, согласно ТЗ
-            </h2>
+            <div className="service-desc">
+              <h2 className="service-title">
+                Производство изделий с нуля, согласно ТЗ
+              </h2>
+              <p>Индивидуальные заказы.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    // <div className="services-container">
-    //     <div className="service">
-    //       {/* <div className="service-img"></div> */}
-    //       <img src={service1} alt="service-image" />
-    //       <div className="service-desc">
-    //         <h3 className="service-title">Продажа готовых изделий</h3>
-    //         {/* <p className="service-text">
-    //           Производим готовый трикотаж: футболки, поло, лонгсливы, свитшоты,
-    //           худи
-    //         </p> */}
-    //       </div>
-    //     </div>
-    //     <div className="service">
-    //       <div className="service-img">
-    //         <img src={service2} alt="service-image" />
-    //       </div>
-    //       <div className="service-desc">
-    //         <h3 className="service-title">
-    //           Нанесение логотипа на наши готовые изделия
-    //         </h3>
-    //         {/* <p className="service-text">
-    //           Печать логотипа или вышивка на готовую одежду.
-    //         </p> */}
-    //       </div>
-    //     </div>
-    //     <div className="service">
-    //       <div className="service-img">
-    //         <img src={service3} alt="service-image" />
-    //       </div>
-    //       <div className="ervice-desc">
-    //         <h3 className="service-title">
-    //           Производство изделий с нуля, согласно ТЗ
-    //         </h3>
-    //         {/* <p className="service-text">Индивидуальные заказы.</p> */}
-    //       </div>
-    //     </div>
   );
 }
 export default Services;
