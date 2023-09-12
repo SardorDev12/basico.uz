@@ -15,6 +15,9 @@
       max-height: 40px;
       margin-top: 1rem;
     }
+    &.big {
+      width: 170px;
+    }
   }
 
   img {
@@ -26,7 +29,7 @@
   .partners-container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    gap: 3rem;
+    gap: 2rem;
 
     .partner {
       width: 120px;

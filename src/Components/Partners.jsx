@@ -58,17 +58,17 @@ function Partners() {
           <img src={partnerImage15} alt="partner-image" />
         </div>
 
-        <div className="partner outline">
+        <div className="partner ">
           <img src={partnerImage11} alt="partner-image" />
         </div>
 
         <div className="partner small">
           <img src={partnerImage12} alt="partner-image" />
         </div>
-        <div className="partner">
+        <div className="partner big">
           <img src={partnerImage13} alt="partner-image" />
         </div>
-        <div className="partner">
+        <div className="partner ">
           <img src={partnerImage14} alt="partner-image" />
         </div>
       </div>
