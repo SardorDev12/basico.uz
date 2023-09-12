@@ -122,17 +122,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .footer-info {
-    @include flex-row;
-    align-items: center;
-
-    .info-item {
-      width: calc(50% - 10px);
-    }
-  }
-}
-
 @media screen and (max-width: 793px) {
   .map_form {
     width: 95%;
@@ -151,6 +140,16 @@
         width: 70vw;
         margin: 0.5rem 0;
       }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-info {
+    @include flex-row;
+    align-items: center;
+
+    .info-item {
+      width: calc(50% - 10px);
     }
   }
 }
@@ -195,6 +194,21 @@
       p {
         font-size: 1.5rem;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .social-icon {
+    font-size: 2rem;
+  }
+
+  .footer-info .info-item {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
     }
   }
 }
