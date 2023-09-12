@@ -17,6 +17,7 @@
   .partners-container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    gap: 5rem;
 
     .partner {
       width: 150px;

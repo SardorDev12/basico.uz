@@ -1,75 +1,50 @@
 @import "../Sass//variables.scss";
 
-.statistics-section .statistics {
-  padding: 1rem 5rem;
+.statistics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
+  justify-items: center;
 
-.statistic {
-  @include flex-row;
-  justify-content: flex-start;
+  .statistic {
+    @include flex-row;
 
-  h4 {
-    font-size: 8rem;
-    color: #ddd;
-    -webkit-text-stroke: 1px #000;
-    text-shadow: 1px #000;
-  }
+    h4 {
+      font-size: 8rem;
+      color: #ddd;
+      -webkit-text-stroke: 1px #000;
+      text-shadow: 1px #000;
+    }
 
-  p {
-    font-size: 2rem;
-    transform: translate(-2rem, -1rem);
-    font-weight: 600;
-    color: #8f2c2c;
+    p {
+      color: #8f2c2c;
+      font-size: 2rem;
+      transform: translateX(-3rem);
+      font-weight: 600;
+    }
   }
 }
 
 @media screen and (max-width: 768px) {
-  html {
-    font-size: 10px;
+  .statistics {
+    @include flex-row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .statistic {
+      justify-content: flex-start;
+      width: calc(50% - 10px);
+    }
   }
 }
-@media screen and (max-width: 793px) {
-  .statistics-section {
-    width: 90%;
-    margin: 0 auto;
-    gap: 2rem;
-    padding: 0;
+
+@media screen and (max-width: 425px) {
+  .statistics {
+    @include flex-column;
     .statistic {
       flex-direction: column;
-
       p {
-        transform: translate(0rem, -3rem);
+        transform: translateY(-3rem);
         text-align: center;
       }
-    }
-  }
-}
-@media screen and (max-width: 425px) {
-  .statistics-section .statistics {
-    grid-template-columns: none;
-    @include flex-column;
-    justify-content: center;
-  }
-
-  .statistics {
-    flex-direction: column;
-
-    h4 {
-      font-size: 10rem;
-    }
-    p {
-      transform: translateY(-4rem);
-      text-align: center;
-      font-size: 3rem;
-    }
-  }
-}
-@media screen and (max-width: 320px) {
-  .statistic {
-    p {
-      max-width: 80%;
     }
   }
 }

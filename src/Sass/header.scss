@@ -70,9 +70,13 @@
   }
 }
 
-@media screen and (max-width: 793px) {
+@media screen and (max-width: 425px) {
   .call-btn.header-btn {
     display: none;
+  }
+
+  .call-btn {
+    padding: 1.2rem 2.4rem;
   }
 
   .burger-menu {

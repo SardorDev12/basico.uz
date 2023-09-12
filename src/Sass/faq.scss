@@ -26,4 +26,11 @@
 }
 
 @media screen and (max-width: 425px) {
+  .section-cont {
+    flex-direction: column;
+    .faq-image {
+      width: 250px;
+      margin: 0 auto;
+    }
+  }
 }
