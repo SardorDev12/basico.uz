@@ -1,6 +1,6 @@
 import "../Sass/services.scss";
-import service1 from "../assets/Images/Servis 1.jpg";
-import service2 from "../assets/Images/Servis 3.jpg";
+import service1 from "../assets/Images/Serv 2.png";
+import service2 from "../assets/Images/Serv 1.png";
 import service3 from "../assets/Images/Servis 2.jpg";
 // import service1 from "../assets/Images/Serv 1.jpg";
 // import service2 from "../assets/Images/Serv 2.jpg";
