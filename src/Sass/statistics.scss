@@ -47,12 +47,13 @@
   }
 }
 @media screen and (max-width: 425px) {
-  .statistics-section {
+  .statistics-section .statistics {
     grid-template-columns: none;
     @include flex-column;
+    justify-content: center;
   }
 
-  .statistic {
+  .statistics {
     flex-direction: column;
 
     h4 {

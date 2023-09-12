@@ -14,7 +14,13 @@
 }
 
 @media screen and (max-width: 425px) {
-  .partners-container .partner {
-    width: calc(50% - 10px);
+  .partners-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+    .partner {
+      width: 150px;
+      max-height: 80px;
+    }
   }
 }

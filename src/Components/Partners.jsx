@@ -15,7 +15,6 @@ import partnerImage13 from "../assets/Images/Partners/Partner (8).png";
 import partnerImage14 from "../assets/Images/Partners/Partner (9).png";
 import partnerImage15 from "../assets/Images/Partners/Partner (10).png";
 import partnerImage16 from "../assets/Images/Partners/Partner (11).png";
-import partnerImage17 from "../assets/Images/Partners/Partner (13).png";
 
 function Partners() {
   return (
