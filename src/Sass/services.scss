@@ -1,70 +1,34 @@
 @import "../Sass/variables.scss";
 
-.services-container {
-  @include flex-row;
-  width: 90%;
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  border-radius: 3px;
-  margin: 0 auto;
-  padding: 2rem 0;
-
+  text-align: center;
+  justify-items: center;
+  color: $text-color;
   .service {
-    padding: 2rem 1rem;
-    @include flex-column;
-    justify-content: flex-start;
-    min-height: 470px;
-    border: 1px solid $text-color;
-    border-radius: 3px;
-    overflow: hidden;
-
-    img {
-      transition: all 0.3s ease-in-out;
-      margin-bottom: 2rem;
-    }
-    &:hover img {
-      transform: scale(1.1);
-    }
-
-    .service-title {
-      z-index: 1;
-      color: $primary-color;
-    }
-
-    .service-text {
-      color: $text-color;
-      margin-top: 1rem;
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .services-container {
-    width: 95%;
-    gap: 1rem;
-
-    .service {
+    width: 300px;
+    min-height: 300px;
+    .service-image {
       min-height: 300px;
+      max-height: 300px;
+
+      border-radius: 8px;
+      overflow: hidden;
+
+      img {
+        vertical-align: top;
+      }
     }
   }
 }
 
 @media screen and (max-width: 425px) {
-  .services-container {
-    flex-direction: column;
-  }
-  .service {
-    width: 100%;
-    min-height: 350px;
+  .services {
+    grid-template-columns: none;
     .service-title {
-      font-size: 2.2rem;
-    }
-
-    .service-text {
-      font-size: 1.8rem;
-    }
-
-    .service-img {
-      width: 300px;
+      font-size: 2rem;
     }
   }
 }

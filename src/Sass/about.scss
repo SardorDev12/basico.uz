@@ -1,0 +1,31 @@
+@import "../Sass/variables.scss";
+.section-content {
+  @include flex-row;
+
+  .about-info {
+    div {
+      img {
+        width: 300px;
+      }
+    }
+    p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+  }
+  .about-image {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-content {
+    flex-direction: column-reverse;
+    .about-info {
+      p {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

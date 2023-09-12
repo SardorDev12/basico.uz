@@ -34,11 +34,12 @@ function Header() {
             <a href="#home">Главная</a>
           </li>
           <li className="nav-item" onClick={handleNavItemClicked}>
-            <a href="#services">Услуги</a>
+            <a href="#about">О Нас</a>
           </li>
           <li className="nav-item" onClick={handleNavItemClicked}>
-            <a href="#qualities">O нас</a>
+            <a href="#services">Услуги</a>
           </li>
+
           <li className="nav-item" onClick={handleNavItemClicked}>
             <a href="#portfolio">Портфолио</a>
           </li>

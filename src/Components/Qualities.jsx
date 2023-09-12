@@ -14,31 +14,31 @@ function Qualities() {
           <div className="quality-icon">
             <FaBolt />
           </div>
-          <h3 className="quality-title">быстрое изготовление</h3>
+          <h3 className="quality-title">Быстрое Изготовление</h3>
         </div>
         <div className="quality">
           <div className="quality-icon">
             <FaSearch />
           </div>
-          <h3 className="quality-title">внимание к деталям</h3>
+          <h3 className="quality-title">Внимание к Деталям</h3>
         </div>
         <div className="quality">
           <div className="quality-icon">
             <IoIosPeople />
           </div>
-          <h3 className="quality-title">быстрая доставка</h3>
+          <h3 className="quality-title">Быстрая Доставка</h3>
         </div>
         <div className="quality">
           <div className="quality-icon">
             <IoIosCheckmarkCircleOutline />
           </div>
-          <h3 className="quality-title">необычный дизайн</h3>
+          <h3 className="quality-title">Необычный Дизайн</h3>
         </div>
         <div className="quality">
           <div className="quality-icon">
             <AiOutlineUser />
           </div>
-          <h3 className="quality-title">изделия любой сложности</h3>
+          <h3 className="quality-title">Изделия любой Сложности</h3>
         </div>
       </div>
     </section>

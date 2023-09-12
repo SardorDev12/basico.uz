@@ -1,4 +1,5 @@
-import homeImage from "../assets/Images/Service 2.png";
+// import homeImage from "../assets/Images/Service 2.png";
+import homeImage from "../assets/Images/Home Image.png";
 import CallBtn from "./CallBtn";
 import "../Sass/home.scss";
 

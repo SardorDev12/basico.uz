@@ -41,7 +41,7 @@ function Footer() {
         <div className="info-item">
           <h2>Адрес</h2>
           <p className="address">
-            Янгихаётский район, Квартал Дустлик 1, 4 Дом Город Ташкент
+            Город Ташкент, Янгихаётский район, Массив Дустлик 1, 4 Дом
           </p>
         </div>
         <div className="info-item">
@@ -68,11 +68,15 @@ function Footer() {
                 <FaInstagram />
               </a>
             </li>
-            {/* <li>
-              <a href="" className="social-icon">
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100063940934925"
+                className="social-icon"
+              >
                 <FaFacebook />
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
         <div className="info-item">

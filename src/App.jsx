@@ -8,16 +8,18 @@ import Portfolio from "./Components/Portfolio";
 import Partners from "./Components/Partners";
 import Footer from "./Components/Footer";
 import Cta from "./Components/Cta";
+import AboutUs from "./Components/aboutUs";
 
 function App() {
   return (
     <>
       <Header />
       <Home />
+      <AboutUs />
       <Services />
       <Qualities />
-      <Faq />
       <Statistics />
+      <Faq />
       <Portfolio />
       <Partners />
       <Footer />
