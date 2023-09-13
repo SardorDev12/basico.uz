@@ -15,6 +15,7 @@ import image13 from "../assets/Images/Portfolio/portfoilo (13).jpg";
 import image14 from "../assets/Images/Portfolio/portfoilo (14).jpg";
 import image15 from "../assets/Images/Portfolio/portfoilo (15).jpg";
 import image16 from "../assets/Images/Portfolio/portfoilo (16).jpg";
+import image18 from "../assets/Images/Portfolio/portfoilo (18).jpg";
 
 function Portfolio() {
   return (
@@ -35,9 +36,9 @@ function Portfolio() {
         <div className="portfolio-item">
           <img src={image6} alt="portfolio-image" />
         </div>
-        {/* <div className="portfolio-item">
+        <div className="portfolio-item">
           <img src={image7} alt="portfolio-image" />
-        </div> */}
+        </div>
         {/* <div className="portfolio-item">
           <img src={image8} alt="portfolio-image" />
         </div> */}
@@ -50,26 +51,29 @@ function Portfolio() {
         {/* <div className="portfolio-item">
           <img src={image10} alt="portfolio-image" />
         </div> */}
-        <div className="portfolio-item">
+        {/* <div className="portfolio-item">
           <img src={image11} alt="portfolio-image" />
-        </div>
+        </div> */}
         {/* <div className="portfolio-item">
           <img src={image12} alt="portfolio-image" />
         </div> */}
-        {/* <div className="portfolio-item">
+        <div className="portfolio-item">
           <img src={image13} alt="portfolio-image" />
-        </div> */}
-        {/* <div className="portfolio-item">
+        </div>
+        <div className="portfolio-item">
           <img src={image14} alt="portfolio-image" />
-        </div> */}
-        {/* <div className="portfolio-item">
+        </div>
+        <div className="portfolio-item">
           <img src={image15} alt="portfolio-image" />
-        </div> */}
+        </div>
         <div className="portfolio-item">
           <img src={image16} alt="portfolio-image" />
         </div>
         <div className="portfolio-item">
           <img src={image4} alt="portfolio-image" />
+        </div>
+        <div className="portfolio-item">
+          <img src={image18} alt="portfolio-image" />
         </div>
         {/* <div className="portfolio-item">
           <img src={image17} alt="portfolio-image" />
