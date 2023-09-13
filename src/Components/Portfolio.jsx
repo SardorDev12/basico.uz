@@ -2,7 +2,6 @@ import "../Sass/portfolio.scss";
 import image1 from "../assets/Images/Portfolio/portfoilo (1).jpg";
 import image2 from "../assets/Images/Portfolio/portfoilo (2).jpg";
 import image4 from "../assets/Images/Portfolio/portfoilo (4).jpg";
-import image5 from "../assets/Images/Portfolio/portfoilo (5).jpg";
 import image6 from "../assets/Images/Portfolio/portfoilo (6).jpg";
 import image7 from "../assets/Images/Portfolio/portfoilo (7).jpg";
 import image9 from "../assets/Images/Portfolio/portfoilo (9).jpg";
@@ -11,6 +10,7 @@ import image14 from "../assets/Images/Portfolio/portfoilo (14).jpg";
 import image15 from "../assets/Images/Portfolio/portfoilo (15).jpg";
 import image16 from "../assets/Images/Portfolio/portfoilo (16).jpg";
 import image18 from "../assets/Images/Portfolio/portfoilo (18).jpg";
+import image19 from "../assets/Images/Portfolio/portfoilo (19).jpg";
 import { useEffect } from "react";
 import { useState } from "react";
 
@@ -18,7 +18,7 @@ function Portfolio() {
   // const [portfoilo, setPortfolio] = useState([]);
   // useEffect(async () => {
   //   const res = await fetch(url);
-  //   const data = res.json();
+  //   const data = await res.json();
   //   setPortfolio(data);
   // });
   return (
@@ -35,9 +35,6 @@ function Portfolio() {
         })} */}
         <div className="portfolio-item">
           <img src={image1} alt="portfolio-image" />
-        </div>
-        <div className="portfolio-item">
-          <img src={image5} alt="portfolio-image" />
         </div>
         <div className="portfolio-item">
           <img src={image6} alt="portfolio-image" />
@@ -68,6 +65,9 @@ function Portfolio() {
         </div>
         <div className="portfolio-item">
           <img src={image18} alt="portfolio-image" />
+        </div>
+        <div className="portfolio-item">
+          <img src={image19} alt="portfolio-image" />
         </div>
       </div>
     </section>

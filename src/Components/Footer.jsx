@@ -41,7 +41,7 @@ function Footer() {
         <div className="info-item">
           <h2>Адрес</h2>
           <p className="address">
-            Город Ташкент, Янгихаётский район, Массив Дустлик 1, 4 Дом
+            Город Ташкент, Янгихаётский район, Массив Дустлик 1, Дом 4
           </p>
         </div>
         <div className="info-item">

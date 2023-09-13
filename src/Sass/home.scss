@@ -13,7 +13,8 @@
 .home-text {
   @include flex-column;
   align-items: flex-start;
-  gap: 2.5rem;
+  gap: 2rem;
+  margin-top: 6rem;
 
   .home-title {
     font-size: 2rem;
@@ -22,12 +23,15 @@
   .home-subtitle {
     font-size: 1rem;
   }
+
+  .call-btn {
+    margin-top: 5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .home-text {
     .home-title {
-      text-transform: capitalize;
       font-size: 3rem;
     }
   }
