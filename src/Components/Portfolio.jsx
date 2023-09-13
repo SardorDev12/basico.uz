@@ -11,8 +11,7 @@ import image15 from "../assets/Images/Portfolio/portfoilo (15).jpg";
 import image16 from "../assets/Images/Portfolio/portfoilo (16).jpg";
 import image18 from "../assets/Images/Portfolio/portfoilo (18).jpg";
 import image19 from "../assets/Images/Portfolio/portfoilo (19).jpg";
-import { useEffect } from "react";
-import { useState } from "react";
+// import { useState, useEffect } from "react";
 
 function Portfolio() {
   // const [portfoilo, setPortfolio] = useState([]);
