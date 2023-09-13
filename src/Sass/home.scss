@@ -2,11 +2,12 @@
 
 .main {
   @include flex-row;
+  gap: 1rem;
 }
 
 .home-image {
   margin-top: 8rem;
-  width: 900px;
+  width: 1300px;
   min-height: 200px;
 }
 .home-text {
@@ -15,7 +16,11 @@
   gap: 2.5rem;
 
   .home-title {
-    font-size: 5rem;
+    font-size: 2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1rem;
   }
 }
 

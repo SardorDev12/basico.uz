@@ -14,10 +14,7 @@ function Services() {
           </div>
           <div className="service-desc">
             <h2 className="service-title">Продажа готовых изделий</h2>
-            <p>
-              Производим готовый трикотаж: футболки, поло, лонгсливы, свитшоты,
-              худи.
-            </p>
+            <p>Футболки, поло, лонгсливы, свитшоты, худи.</p>
           </div>
         </div>
         <div className="service">
@@ -25,9 +22,7 @@ function Services() {
             <img src={service2} alt="service-image" />
           </div>
           <div className="service-desc">
-            <h2 className="service-title">
-              Нанесение логотипа на наши готовые изделия
-            </h2>
+            <h2 className="service-title">Ваш логотип на наших изделиях</h2>
             <p>Печать логотипа или вышивка на готовую одежду.</p>
           </div>
         </div>
@@ -37,10 +32,8 @@ function Services() {
               <img src={service3} alt="service-image" />
             </div>
             <div className="service-desc">
-              <h2 className="service-title">
-                Производство изделий с нуля, согласно ТЗ
-              </h2>
-              <p>Индивидуальные заказы.</p>
+              <h2 className="service-title">Производство изделий с нуля</h2>
+              <p>Выполнение индивидуальных заказов, согласно ТЗ.</p>
             </div>
           </div>
         </div>
