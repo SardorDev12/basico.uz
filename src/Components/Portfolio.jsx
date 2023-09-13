@@ -25,10 +25,10 @@ function Portfolio() {
       <h2 className="section-title">Наши Кейсы</h2>
       <div className="section-container">
         {/* Dynamic setup */}
-        {/* {portfoilo.map((img) => {
+        {/* {portfoilo.map((item) => {
           return (
-            <div className="portfolio-item">
-              <img src={img} alt="portfolio-image" />
+            <div className="portfolio-item" key={item.id}>
+              <img src={item.img} alt="portfolio-image" />
             </div>
           );
         })} */}
